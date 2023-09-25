@@ -1,0 +1,78 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav > ul > li{
+    list-style: none;
+    margin: 10px;
+}
+
+.album-example{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.album-example > p {
+    width: 40%;
+    text-align: center;
+}
+
+.buttons1{
+    display: flex;
+}
+
+.album-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.album-card{
+    width: 25%;
+    height: 40%;
+    margin: 20px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons2{
+    padding: 0x;
+}
+
+.footer{
+    display: flex;
+    width: 82%;
+    margin: 40px 120px;
+    justify-content: space-between;
+}
+
+.para3{
+    width: 50%;
+}
+.buttons3{
+    display: flex;
+    height: 5%;
+    width: 10%;
+    align-items: center;
+}
