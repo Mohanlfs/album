@@ -1,0 +1,125 @@
+.container{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.p1{
+    white-space: pre-line;
+}
+
+.p2{
+    white-space: pre-line;
+    color: white;
+}
+
+.title{
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.author{
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.card1{
+    display: grid;
+    grid-template-rows: 50% 10% 10% 10%;
+    grid-gap: 2%;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.card-text1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:small;
+}
+
+.card2{
+    display: grid;
+    grid-template-rows: 30% 20% 20% 10%;
+    grid-gap: 2%;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.card-text2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:small;
+}
+
+.card3{
+    display: grid;
+    grid-template-rows: 15% 55% 5% 5%;
+    grid-gap: 4%;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.card-text3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:small;
+}
+
+.card4{
+    display: grid;
+    grid-template-rows: 50% 10% 10% 10%;
+    grid-gap: 2%;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.card-text4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:small;
+}
+
+.card5{
+    display: grid;
+    grid-template-rows: 50% 10% 10% 10%;
+    grid-gap: 2%;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.card-text5{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:small;
+}
+
+.card6{
+    display: grid;
+    grid-template-rows: 60% 20%;
+    grid-gap: 15%;
+    border: 1px solid red;
+    height: 55%;
+    padding: 10px;
+}
+
+.part1{
+    display:grid;
+    grid-template-columns: 45% 40%;
+    grid-gap: 4%;
+}
+
+.footer{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 20% 35% 15% 15% 15%;
+}
+
+.three-dots::after{
+    content:'\2807';
+    font-size: 15px;
+}
+
+.read{
+    font-size: 12px;
+    color: blue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:600;
+}
